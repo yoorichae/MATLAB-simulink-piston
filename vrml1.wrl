@@ -1,0 +1,71 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF piston Transform {
+	bboxCenter	0 30 0
+	translation	2.29478e-006 30.0001 -1.78814e-007
+	scale	5 5 5
+	center	0 -1 0
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.1
+				diffuseColor	0.180392 0.576471 0.870588
+				specularColor	1 1 1
+			}
+
+		}
+
+		geometry	Cylinder {
+		}
+
+	}
+}
+DEF L1 Transform {
+	translation	0 10 0
+	scale	1 10 1
+	center	0 -1 0
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.1
+				diffuseColor	1 0.0408163 0.0408163
+				specularColor	0.984314 0.984314 0.984314
+			}
+
+		}
+
+		geometry	Cylinder {
+		}
+
+	}
+}
+Viewpoint {
+	fieldOfView	0.785398
+	position	0 20 150
+	description	""
+}
+DEF L2 Transform {
+	translation	0 0 0
+	scale	1 5 1
+	center	0 -1 0
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.1
+				diffuseColor	0.8 0.789856 0.00200167
+				specularColor	1 1 1
+			}
+
+		}
+
+		geometry	Cylinder {
+			top	TRUE
+		}
+
+	}
+}
